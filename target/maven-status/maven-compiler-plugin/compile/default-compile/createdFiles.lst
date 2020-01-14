@@ -1,0 +1,4 @@
+Main.class
+implementation\InputParser.class
+implementation\InputParserRegex.class
+implementation\Triangle.class

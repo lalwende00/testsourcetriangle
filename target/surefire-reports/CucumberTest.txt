@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.155 sec <<< FAILURE!
+Invalid Format(Weinberg - Myers Triangle)  Time elapsed: 0.012 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid format, please enter lengths with format (a,b,c) or (a, b, c)]> but was:<[This triangle is isosceles: It has 2 equals sides.]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at CucumberSteps.lambda$new$2(CucumberSteps.java:39)
+	at ?.I should be told "Invalid format, please enter lengths with format (a,b,c) or (a, b, c)"(file:src/test/resources/features/triangle.feature:89)
+
+Invalid Format(Weinberg - Myers Triangle)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid format, please enter lengths with format (a,b,c) or (a, b, c)]> but was:<[This triangle is isosceles: It has 2 equals sides.]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at CucumberSteps.lambda$new$2(CucumberSteps.java:39)
+	at ?.I should be told "Invalid format, please enter lengths with format (a,b,c) or (a, b, c)"(file:src/test/resources/features/triangle.feature:89)
+
